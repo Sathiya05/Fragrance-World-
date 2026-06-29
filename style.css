@@ -260,3 +260,121 @@ a {
   padding: 20px 0;
   font-size: 0.9rem;
 }
+
+/* Products Page */
+.page-banner {
+  background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=1200&h=400&fit=crop');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.page-banner h1 {
+  font-size: 2.8rem;
+  margin-bottom: 12px;
+}
+
+.page-banner p {
+  font-size: 1.15rem;
+  max-width: 550px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+.filter-section {
+  background: #fff;
+  padding: 25px 0;
+  border-bottom: 1px solid #ecf0f1;
+  position: sticky;
+  top: 60px;
+  z-index: 50;
+}
+
+.filter-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 8px 24px;
+  border: 2px solid #ddd;
+  background: transparent;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #555;
+  font-family: inherit;
+}
+
+.filter-btn:hover {
+  border-color: #f39c12;
+  color: #f39c12;
+}
+
+.filter-btn.active {
+  background: #f39c12;
+  border-color: #f39c12;
+  color: #fff;
+}
+
+.products-page {
+  padding: 60px 0;
+  background: #f9f9f9;
+  min-height: 400px;
+}
+
+.product-card {
+  position: relative;
+}
+
+.product-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #f39c12;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.product-desc {
+  font-size: 0.88rem;
+  color: #777;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  min-height: 40px;
+}
+
+.product-rating {
+  color: #f39c12;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+}
+
+.nav-links a.active {
+  color: #f39c12;
+}
+
+@media (max-width: 768px) {
+  .page-banner h1 {
+    font-size: 2rem;
+  }
+
+  .page-banner {
+    padding: 60px 0;
+  }
+
+  .filter-section {
+    top: 0;
+  }
+}

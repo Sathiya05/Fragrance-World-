@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Fragrance World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Fragrance World</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#testimonials">Testimonials</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container banner-content">
+      <h1>Our Collection</h1>
+      <p>Explore every fragrance we have to offer — from timeless classics to bold new arrivals.</p>
+    </div>
+  </section>
+
+  <!-- Filter Categories -->
+  <section class="filter-section">
+    <div class="container">
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="floral">Floral</button>
+        <button class="filter-btn" data-filter="fresh">Fresh</button>
+        <button class="filter-btn" data-filter="woody">Woody</button>
+        <button class="filter-btn" data-filter="sweet">Sweet</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- All Products -->
+  <section class="products-page">
+    <div class="container">
+      <div class="product-grid">
+
+        <div class="product-card" data-category="floral">
+          <div class="product-badge">Best Seller</div>
+          <img src="https://images.unsplash.com/photo-1667482464119-8ce2bc139fa0?w=300&h=300&fit=crop" alt="Rose Blossom">
+          <h3>Rose Blossom</h3>
+          <p class="product-desc">A delicate floral bouquet with notes of rose, jasmine, and a hint of musk.</p>
+          <div class="product-rating">★★★★★</div>
+          <p class="price">$49.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="fresh">
+          <div class="product-badge">Summer Favorite</div>
+          <img src="https://images.unsplash.com/photo-1718466044521-d38654f3ba0a?w=300&h=300&fit=crop" alt="Ocean Breeze">
+          <h3>Ocean Breeze</h3>
+          <p class="product-desc">A crisp aquatic scent with sea salt, citrus, and fresh linen undertones.</p>
+          <div class="product-rating">★★★★☆</div>
+          <p class="price">$39.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="woody">
+          <div class="product-badge">Premium</div>
+          <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=300&h=300&fit=crop" alt="Midnight Oud">
+          <h3>Midnight Oud</h3>
+          <p class="product-desc">A rich woody fragrance with oud, sandalwood, and a touch of amber spice.</p>
+          <div class="product-rating">★★★★★</div>
+          <p class="price">$59.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="sweet">
+          <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=300&h=300&fit=crop" alt="Vanilla Dream">
+          <h3>Vanilla Dream</h3>
+          <p class="product-desc">A warm sweet scent blending vanilla bean, caramel, and a whisper of cinnamon.</p>
+          <div class="product-rating">★★★★☆</div>
+          <p class="price">$44.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="floral">
+          <img src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=300&h=300&fit=crop" alt="Lavender Mist">
+          <h3>Lavender Mist</h3>
+          <p class="product-desc">A calming floral blend of lavender, chamomile, and soft powdery notes.</p>
+          <div class="product-rating">★★★★☆</div>
+          <p class="price">$42.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="fresh">
+          <img src="https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=300&h=300&fit=crop" alt="Citrus Burst">
+          <h3>Citrus Burst</h3>
+          <p class="product-desc">An energetic fusion of lemon, bergamot, and orange with a zesty finish.</p>
+          <div class="product-rating">★★★★★</div>
+          <p class="price">$36.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="woody">
+          <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=300&h=300&fit=crop" alt="Cedar & Sage">
+          <h3>Cedar &amp; Sage</h3>
+          <p class="product-desc">An earthy aromatic with cedarwood, sage, and a hint of smoky vetiver.</p>
+          <div class="product-rating">★★★★☆</div>
+          <p class="price">$47.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="sweet">
+          <div class="product-badge">New</div>
+          <img src="https://images.unsplash.com/photo-1591375275560-0a32fe9d28f8?w=300&h=300&fit=crop" alt="Honey & Peach">
+          <h3>Honey &amp; Peach</h3>
+          <p class="product-desc">A luscious sweet scent of ripe peach, honey nectar, and soft florals.</p>
+          <div class="product-rating">★★★★★</div>
+          <p class="price">$46.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="floral">
+          <img src="https://images.unsplash.com/photo-1557170334-a9632e77c6e4?w=300&h=300&fit=crop" alt="White Jasmine">
+          <h3>White Jasmine</h3>
+          <p class="product-desc">An elegant floral with jasmine petals, white musk, and a touch of bergamot.</p>
+          <div class="product-rating">★★★★☆</div>
+          <p class="price">$52.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="fresh">
+          <div class="product-badge">Limited</div>
+          <img src="https://images.unsplash.com/photo-1567721913486-6585f069b332?w=300&h=300&fit=crop" alt="Alpine Breeze">
+          <h3>Alpine Breeze</h3>
+          <p class="product-desc">A crisp green fragrance with pine, mint, and fresh mountain air accord.</p>
+          <div class="product-rating">★★★★☆</div>
+          <p class="price">$41.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="woody">
+          <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=300&h=300&fit=crop" alt="Amber Noir">
+          <h3>Amber Noir</h3>
+          <p class="product-desc">A dark sensual blend of amber, patchouli, and leather with warm spice.</p>
+          <div class="product-rating">★★★★★</div>
+          <p class="price">$54.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-category="sweet">
+          <img src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=300&h=300&fit=crop" alt="Coconut Cream">
+          <h3>Coconut Cream</h3>
+          <p class="product-desc">A tropical sweet escape with coconut milk, vanilla, and sun-warmed sandalwood.</p>
+          <div class="product-rating">★★★★☆</div>
+          <p class="price">$38.99</p>
+          <button class="btn btn-small">Add to Cart</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Fragrance World. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Filter functionality
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const productCards = document.querySelectorAll('.product-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.dataset.filter;
+
+        productCards.forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
